@@ -15,6 +15,7 @@
 		461647BC1DFEF342007067EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647BA1DFEF342007067EE /* LaunchScreen.storyboard */; };
 		461647C71DFEF342007067EE /* DubheVideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */; };
 		461647D21DFEF342007067EE /* DubheVideoCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */; };
+		9D540CE5D8078C25D06C2DC9 /* libPods-DubheVideoCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A7E44289AE4E6A094FFD72 /* libPods-DubheVideoCapture.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1161CD33B526F75C26820317 /* Pods-DubheVideoCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubheVideoCapture.release.xcconfig"; path = "Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture.release.xcconfig"; sourceTree = "<group>"; };
+		33A7E44289AE4E6A094FFD72 /* libPods-DubheVideoCapture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DubheVideoCapture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		461647A91DFEF342007067EE /* DubheVideoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubheVideoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461647AD1DFEF342007067EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		461647AF1DFEF342007067EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubheVideoCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubheVideoCaptureUITests.m; sourceTree = "<group>"; };
 		461647D31DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubheVideoCapture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D540CE5D8078C25D06C2DC9 /* libPods-DubheVideoCapture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04960757E4659CC07681F520 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A7E44289AE4E6A094FFD72 /* libPods-DubheVideoCapture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		461647A01DFEF342007067EE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				461647C51DFEF342007067EE /* DubheVideoCaptureTests */,
 				461647D01DFEF342007067EE /* DubheVideoCaptureUITests */,
 				461647AA1DFEF342007067EE /* Products */,
+				B268D9662434974B3A8C1255 /* Pods */,
+				04960757E4659CC07681F520 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,15 @@
 			path = DubheVideoCaptureUITests;
 			sourceTree = "<group>";
 		};
+		B268D9662434974B3A8C1255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */,
+				1161CD33B526F75C26820317 /* Pods-DubheVideoCapture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 461647D61DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCapture" */;
 			buildPhases = (
+				E5A8DBF5BA0157F4CC65593B /* [CP] Check Pods Manifest.lock */,
 				461647A51DFEF342007067EE /* Sources */,
 				461647A61DFEF342007067EE /* Frameworks */,
 				461647A71DFEF342007067EE /* Resources */,
+				8EA97FCCE06922391E8397E6 /* [CP] Embed Pods Frameworks */,
+				C3044728DB92D3B8A847B5CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EA97FCCE06922391E8397E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3044728DB92D3B8A847B5CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A8DBF5BA0157F4CC65593B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		461647A51DFEF342007067EE /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		461647D71DFEF342007067EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N3S63W353W;
@@ -438,6 +514,7 @@
 		};
 		461647D81DFEF342007067EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1161CD33B526F75C26820317 /* Pods-DubheVideoCapture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = N3S63W353W;
