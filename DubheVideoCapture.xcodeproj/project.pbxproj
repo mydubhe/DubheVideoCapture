@@ -15,6 +15,7 @@
 		461647BC1DFEF342007067EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647BA1DFEF342007067EE /* LaunchScreen.storyboard */; };
 		461647C71DFEF342007067EE /* DubheVideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */; };
 		461647D21DFEF342007067EE /* DubheVideoCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */; };
+		46B2FEE01DFEF90100F6C8F4 /* TSVideoCaptureUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */; };
 		9D540CE5D8078C25D06C2DC9 /* libPods-DubheVideoCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A7E44289AE4E6A094FFD72 /* libPods-DubheVideoCapture.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubheVideoCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubheVideoCaptureUITests.m; sourceTree = "<group>"; };
 		461647D31DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B2FEDE1DFEF90100F6C8F4 /* TSVideoCaptureUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSVideoCaptureUtility.h; sourceTree = "<group>"; };
+		46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSVideoCaptureUtility.m; sourceTree = "<group>"; };
 		C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubheVideoCapture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +97,7 @@
 		461647A01DFEF342007067EE = {
 			isa = PBXGroup;
 			children = (
+				46B2FED81DFEF7D400F6C8F4 /* VideoCapture */,
 				461647AB1DFEF342007067EE /* DubheVideoCapture */,
 				461647C51DFEF342007067EE /* DubheVideoCaptureTests */,
 				461647D01DFEF342007067EE /* DubheVideoCaptureUITests */,
@@ -153,6 +157,15 @@
 				461647D31DFEF342007067EE /* Info.plist */,
 			);
 			path = DubheVideoCaptureUITests;
+			sourceTree = "<group>";
+		};
+		46B2FED81DFEF7D400F6C8F4 /* VideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				46B2FEDE1DFEF90100F6C8F4 /* TSVideoCaptureUtility.h */,
+				46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */,
+			);
+			name = VideoCapture;
 			sourceTree = "<group>";
 		};
 		B268D9662434974B3A8C1255 /* Pods */ = {
@@ -351,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B2FEE01DFEF90100F6C8F4 /* TSVideoCaptureUtility.m in Sources */,
 				461647B41DFEF342007067EE /* ViewController.m in Sources */,
 				461647B11DFEF342007067EE /* AppDelegate.m in Sources */,
 				461647AE1DFEF342007067EE /* main.m in Sources */,
@@ -595,6 +609,7 @@
 				461647D81DFEF342007067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461647D91DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +618,7 @@
 				461647DB1DFEF342007067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461647DC1DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +627,7 @@
 				461647DE1DFEF342007067EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
