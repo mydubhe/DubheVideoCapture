@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461647AE1DFEF342007067EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647AD1DFEF342007067EE /* main.m */; };
+		461647B11DFEF342007067EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647B01DFEF342007067EE /* AppDelegate.m */; };
+		461647B41DFEF342007067EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647B31DFEF342007067EE /* ViewController.m */; };
+		461647B71DFEF342007067EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647B51DFEF342007067EE /* Main.storyboard */; };
+		461647B91DFEF342007067EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461647B81DFEF342007067EE /* Assets.xcassets */; };
+		461647BC1DFEF342007067EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647BA1DFEF342007067EE /* LaunchScreen.storyboard */; };
+		461647C71DFEF342007067EE /* DubheVideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */; };
+		461647D21DFEF342007067EE /* DubheVideoCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461647C31DFEF342007067EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461647A11DFEF342007067EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461647A81DFEF342007067EE;
+			remoteInfo = DubheVideoCapture;
+		};
+		461647CE1DFEF342007067EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461647A11DFEF342007067EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461647A81DFEF342007067EE;
+			remoteInfo = DubheVideoCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461647A91DFEF342007067EE /* DubheVideoCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubheVideoCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		461647AD1DFEF342007067EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		461647AF1DFEF342007067EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		461647B01DFEF342007067EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		461647B21DFEF342007067EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		461647B31DFEF342007067EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		461647B61DFEF342007067EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		461647B81DFEF342007067EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461647BB1DFEF342007067EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		461647BD1DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461647C21DFEF342007067EE /* DubheVideoCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubheVideoCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubheVideoCaptureTests.m; sourceTree = "<group>"; };
+		461647C81DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubheVideoCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubheVideoCaptureUITests.m; sourceTree = "<group>"; };
+		461647D31DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461647A61DFEF342007067EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647BF1DFEF342007067EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647CA1DFEF342007067EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461647A01DFEF342007067EE = {
+			isa = PBXGroup;
+			children = (
+				461647AB1DFEF342007067EE /* DubheVideoCapture */,
+				461647C51DFEF342007067EE /* DubheVideoCaptureTests */,
+				461647D01DFEF342007067EE /* DubheVideoCaptureUITests */,
+				461647AA1DFEF342007067EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461647AA1DFEF342007067EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461647A91DFEF342007067EE /* DubheVideoCapture.app */,
+				461647C21DFEF342007067EE /* DubheVideoCaptureTests.xctest */,
+				461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461647AB1DFEF342007067EE /* DubheVideoCapture */ = {
+			isa = PBXGroup;
+			children = (
+				461647AF1DFEF342007067EE /* AppDelegate.h */,
+				461647B01DFEF342007067EE /* AppDelegate.m */,
+				461647B21DFEF342007067EE /* ViewController.h */,
+				461647B31DFEF342007067EE /* ViewController.m */,
+				461647B51DFEF342007067EE /* Main.storyboard */,
+				461647B81DFEF342007067EE /* Assets.xcassets */,
+				461647BA1DFEF342007067EE /* LaunchScreen.storyboard */,
+				461647BD1DFEF342007067EE /* Info.plist */,
+				461647AC1DFEF342007067EE /* Supporting Files */,
+			);
+			path = DubheVideoCapture;
+			sourceTree = "<group>";
+		};
+		461647AC1DFEF342007067EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				461647AD1DFEF342007067EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		461647C51DFEF342007067EE /* DubheVideoCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */,
+				461647C81DFEF342007067EE /* Info.plist */,
+			);
+			path = DubheVideoCaptureTests;
+			sourceTree = "<group>";
+		};
+		461647D01DFEF342007067EE /* DubheVideoCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */,
+				461647D31DFEF342007067EE /* Info.plist */,
+			);
+			path = DubheVideoCaptureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461647A81DFEF342007067EE /* DubheVideoCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461647D61DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCapture" */;
+			buildPhases = (
+				461647A51DFEF342007067EE /* Sources */,
+				461647A61DFEF342007067EE /* Frameworks */,
+				461647A71DFEF342007067EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DubheVideoCapture;
+			productName = DubheVideoCapture;
+			productReference = 461647A91DFEF342007067EE /* DubheVideoCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461647C11DFEF342007067EE /* DubheVideoCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461647D91DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureTests" */;
+			buildPhases = (
+				461647BE1DFEF342007067EE /* Sources */,
+				461647BF1DFEF342007067EE /* Frameworks */,
+				461647C01DFEF342007067EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461647C41DFEF342007067EE /* PBXTargetDependency */,
+			);
+			name = DubheVideoCaptureTests;
+			productName = DubheVideoCaptureTests;
+			productReference = 461647C21DFEF342007067EE /* DubheVideoCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461647CC1DFEF342007067EE /* DubheVideoCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461647DC1DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureUITests" */;
+			buildPhases = (
+				461647C91DFEF342007067EE /* Sources */,
+				461647CA1DFEF342007067EE /* Frameworks */,
+				461647CB1DFEF342007067EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461647CF1DFEF342007067EE /* PBXTargetDependency */,
+			);
+			name = DubheVideoCaptureUITests;
+			productName = DubheVideoCaptureUITests;
+			productReference = 461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461647A11DFEF342007067EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dubhe;
+				TargetAttributes = {
+					461647A81DFEF342007067EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N3S63W353W;
+						ProvisioningStyle = Automatic;
+					};
+					461647C11DFEF342007067EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N3S63W353W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 461647A81DFEF342007067EE;
+					};
+					461647CC1DFEF342007067EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N3S63W353W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 461647A81DFEF342007067EE;
+					};
+				};
+			};
+			buildConfigurationList = 461647A41DFEF342007067EE /* Build configuration list for PBXProject "DubheVideoCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461647A01DFEF342007067EE;
+			productRefGroup = 461647AA1DFEF342007067EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461647A81DFEF342007067EE /* DubheVideoCapture */,
+				461647C11DFEF342007067EE /* DubheVideoCaptureTests */,
+				461647CC1DFEF342007067EE /* DubheVideoCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461647A71DFEF342007067EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461647BC1DFEF342007067EE /* LaunchScreen.storyboard in Resources */,
+				461647B91DFEF342007067EE /* Assets.xcassets in Resources */,
+				461647B71DFEF342007067EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647C01DFEF342007067EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647CB1DFEF342007067EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461647A51DFEF342007067EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461647B41DFEF342007067EE /* ViewController.m in Sources */,
+				461647B11DFEF342007067EE /* AppDelegate.m in Sources */,
+				461647AE1DFEF342007067EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647BE1DFEF342007067EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461647C71DFEF342007067EE /* DubheVideoCaptureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461647C91DFEF342007067EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461647D21DFEF342007067EE /* DubheVideoCaptureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461647C41DFEF342007067EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461647A81DFEF342007067EE /* DubheVideoCapture */;
+			targetProxy = 461647C31DFEF342007067EE /* PBXContainerItemProxy */;
+		};
+		461647CF1DFEF342007067EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461647A81DFEF342007067EE /* DubheVideoCapture */;
+			targetProxy = 461647CE1DFEF342007067EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		461647B51DFEF342007067EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461647B61DFEF342007067EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		461647BA1DFEF342007067EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				461647BB1DFEF342007067EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		461647D41DFEF342007067EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461647D51DFEF342007067EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461647D71DFEF342007067EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		461647D81DFEF342007067EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCapture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		461647DA1DFEF342007067EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DubheVideoCapture.app/DubheVideoCapture";
+			};
+			name = Debug;
+		};
+		461647DB1DFEF342007067EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCaptureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DubheVideoCapture.app/DubheVideoCapture";
+			};
+			name = Release;
+		};
+		461647DD1DFEF342007067EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DubheVideoCapture;
+			};
+			name = Debug;
+		};
+		461647DE1DFEF342007067EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = N3S63W353W;
+				INFOPLIST_FILE = DubheVideoCaptureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dubhe.DubheVideoCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DubheVideoCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461647A41DFEF342007067EE /* Build configuration list for PBXProject "DubheVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461647D41DFEF342007067EE /* Debug */,
+				461647D51DFEF342007067EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461647D61DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461647D71DFEF342007067EE /* Debug */,
+				461647D81DFEF342007067EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		461647D91DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461647DA1DFEF342007067EE /* Debug */,
+				461647DB1DFEF342007067EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		461647DC1DFEF342007067EE /* Build configuration list for PBXNativeTarget "DubheVideoCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461647DD1DFEF342007067EE /* Debug */,
+				461647DE1DFEF342007067EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461647A11DFEF342007067EE /* Project object */;
+}
