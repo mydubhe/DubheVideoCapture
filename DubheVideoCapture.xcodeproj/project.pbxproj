@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		461647AE1DFEF342007067EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647AD1DFEF342007067EE /* main.m */; };
 		461647B11DFEF342007067EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647B01DFEF342007067EE /* AppDelegate.m */; };
-		461647B41DFEF342007067EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647B31DFEF342007067EE /* ViewController.m */; };
 		461647B71DFEF342007067EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647B51DFEF342007067EE /* Main.storyboard */; };
 		461647B91DFEF342007067EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461647B81DFEF342007067EE /* Assets.xcassets */; };
 		461647BC1DFEF342007067EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461647BA1DFEF342007067EE /* LaunchScreen.storyboard */; };
 		461647C71DFEF342007067EE /* DubheVideoCaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647C61DFEF342007067EE /* DubheVideoCaptureTests.m */; };
 		461647D21DFEF342007067EE /* DubheVideoCaptureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */; };
-		46B2FEE01DFEF90100F6C8F4 /* TSVideoCaptureUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */; };
+		46A229311E097D8A00CAF2BD /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A229301E097D8A00CAF2BD /* CircleProgressView.m */; };
+		46BEF3761E0978B400FBB716 /* TSVideoCaptureUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEF3751E0978B400FBB716 /* TSVideoCaptureUtility.m */; };
+		46BEF37A1E09790400FBB716 /* TSVideoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BEF3791E09790400FBB716 /* TSVideoPreviewViewController.m */; };
 		9D540CE5D8078C25D06C2DC9 /* libPods-DubheVideoCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A7E44289AE4E6A094FFD72 /* libPods-DubheVideoCapture.a */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +44,6 @@
 		461647AD1DFEF342007067EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		461647AF1DFEF342007067EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		461647B01DFEF342007067EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		461647B21DFEF342007067EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		461647B31DFEF342007067EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		461647B61DFEF342007067EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		461647B81DFEF342007067EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461647BB1DFEF342007067EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +54,12 @@
 		461647CD1DFEF342007067EE /* DubheVideoCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DubheVideoCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461647D11DFEF342007067EE /* DubheVideoCaptureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DubheVideoCaptureUITests.m; sourceTree = "<group>"; };
 		461647D31DFEF342007067EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46B2FEDE1DFEF90100F6C8F4 /* TSVideoCaptureUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSVideoCaptureUtility.h; sourceTree = "<group>"; };
-		46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSVideoCaptureUtility.m; sourceTree = "<group>"; };
+		46A2292F1E097D8A00CAF2BD /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		46A229301E097D8A00CAF2BD /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+		46BEF3741E0978B400FBB716 /* TSVideoCaptureUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSVideoCaptureUtility.h; path = VideoCapture/TSVideoCaptureUtility.h; sourceTree = "<group>"; };
+		46BEF3751E0978B400FBB716 /* TSVideoCaptureUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSVideoCaptureUtility.m; path = VideoCapture/TSVideoCaptureUtility.m; sourceTree = "<group>"; };
+		46BEF3781E09790400FBB716 /* TSVideoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSVideoPreviewViewController.h; sourceTree = "<group>"; };
+		46BEF3791E09790400FBB716 /* TSVideoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSVideoPreviewViewController.m; sourceTree = "<group>"; };
 		C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DubheVideoCapture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DubheVideoCapture/Pods-DubheVideoCapture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				46B2FED81DFEF7D400F6C8F4 /* VideoCapture */,
+				46BEF3771E0978D400FBB716 /* VideoPreviewController */,
+				46BEF37B1E097C4E00FBB716 /* VIew */,
 				461647AB1DFEF342007067EE /* DubheVideoCapture */,
 				461647C51DFEF342007067EE /* DubheVideoCaptureTests */,
 				461647D01DFEF342007067EE /* DubheVideoCaptureUITests */,
@@ -122,8 +127,6 @@
 			children = (
 				461647AF1DFEF342007067EE /* AppDelegate.h */,
 				461647B01DFEF342007067EE /* AppDelegate.m */,
-				461647B21DFEF342007067EE /* ViewController.h */,
-				461647B31DFEF342007067EE /* ViewController.m */,
 				461647B51DFEF342007067EE /* Main.storyboard */,
 				461647B81DFEF342007067EE /* Assets.xcassets */,
 				461647BA1DFEF342007067EE /* LaunchScreen.storyboard */,
@@ -159,13 +162,39 @@
 			path = DubheVideoCaptureUITests;
 			sourceTree = "<group>";
 		};
+		46A2292E1E097D8A00CAF2BD /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				46A2292F1E097D8A00CAF2BD /* CircleProgressView.h */,
+				46A229301E097D8A00CAF2BD /* CircleProgressView.m */,
+			);
+			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
 		46B2FED81DFEF7D400F6C8F4 /* VideoCapture */ = {
 			isa = PBXGroup;
 			children = (
-				46B2FEDE1DFEF90100F6C8F4 /* TSVideoCaptureUtility.h */,
-				46B2FEDF1DFEF90100F6C8F4 /* TSVideoCaptureUtility.m */,
+				46BEF3741E0978B400FBB716 /* TSVideoCaptureUtility.h */,
+				46BEF3751E0978B400FBB716 /* TSVideoCaptureUtility.m */,
 			);
 			name = VideoCapture;
+			sourceTree = "<group>";
+		};
+		46BEF3771E0978D400FBB716 /* VideoPreviewController */ = {
+			isa = PBXGroup;
+			children = (
+				46BEF3781E09790400FBB716 /* TSVideoPreviewViewController.h */,
+				46BEF3791E09790400FBB716 /* TSVideoPreviewViewController.m */,
+			);
+			path = VideoPreviewController;
+			sourceTree = "<group>";
+		};
+		46BEF37B1E097C4E00FBB716 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				46A2292E1E097D8A00CAF2BD /* CircleProgressView */,
+			);
+			path = VIew;
 			sourceTree = "<group>";
 		};
 		B268D9662434974B3A8C1255 /* Pods */ = {
@@ -247,7 +276,7 @@
 				TargetAttributes = {
 					461647A81DFEF342007067EE = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = N3S63W353W;
+						DevelopmentTeam = QY42B6MUPR;
 						ProvisioningStyle = Automatic;
 					};
 					461647C11DFEF342007067EE = {
@@ -364,10 +393,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46B2FEE01DFEF90100F6C8F4 /* TSVideoCaptureUtility.m in Sources */,
-				461647B41DFEF342007067EE /* ViewController.m in Sources */,
 				461647B11DFEF342007067EE /* AppDelegate.m in Sources */,
+				46BEF3761E0978B400FBB716 /* TSVideoCaptureUtility.m in Sources */,
 				461647AE1DFEF342007067EE /* main.m in Sources */,
+				46BEF37A1E09790400FBB716 /* TSVideoPreviewViewController.m in Sources */,
+				46A229311E097D8A00CAF2BD /* CircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,7 +547,7 @@
 			baseConfigurationReference = C1587679870FA0B0C51A6514 /* Pods-DubheVideoCapture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N3S63W353W;
+				DEVELOPMENT_TEAM = QY42B6MUPR;
 				INFOPLIST_FILE = DubheVideoCapture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -531,7 +561,7 @@
 			baseConfigurationReference = 1161CD33B526F75C26820317 /* Pods-DubheVideoCapture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N3S63W353W;
+				DEVELOPMENT_TEAM = QY42B6MUPR;
 				INFOPLIST_FILE = DubheVideoCapture/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -92,6 +92,15 @@ typedef NS_ENUM(NSInteger, TSVideoWriterRecordingStatus) {
     return _audioInput;
 }
 
+- (AVCaptureVideoPreviewLayer *)previewLayer {
+    if (_previewLayer == nil) {
+        _previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.captureSession];
+        //设置显示比例
+        _previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+    }
+    return _previewLayer;
+}
+
 #pragma mark - -------------------------- 初始化CaptureSession --------------------------
 - (void)setupCaptureSession {
     if (_captureSession) {

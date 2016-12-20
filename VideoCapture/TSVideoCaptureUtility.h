@@ -11,4 +11,12 @@
 
 @interface TSVideoCaptureUtility : NSObject
 
+@property (nonatomic, readonly, strong) AVCaptureVideoPreviewLayer *previewLayer;
+
+
+- (void)startRunning;
+- (void)pauseRunning;
+- (void)stopRunning;
+- (void)resumeRuning;
+
 @end
